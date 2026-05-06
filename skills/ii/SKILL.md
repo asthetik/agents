@@ -21,7 +21,7 @@ description: 初始化新项目：生成 CLAUDE.md、分析架构并输出文档
 
 ## 第二步：分析项目架构，输出 docs/ARCHITECTURE.md
 
-在这个步骤，你成为一名系统架构师角色，分析项目整体架构，并创建 `docs/` 目录（如不存在），生成 `docs/ARCHITECTURE.md`。
+在这个步骤，你成为一名系统架构师，分析项目整体架构，并创建 `docs/` 目录（如不存在），生成 `docs/ARCHITECTURE.md`。
 
 ## 第三步：分析各模块，输出到 docs/modules/
 
