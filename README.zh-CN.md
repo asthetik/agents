@@ -24,7 +24,7 @@ agents/
 ├── skills/          # 技能定义（每个技能一个 .md 文件）
 │   └── ii/
 │       └── SKILL.md
-├── LICENSE          # MIT 许可证
+├── LICENSE
 └── README.md
 ```
 

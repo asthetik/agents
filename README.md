@@ -24,7 +24,7 @@ agents/
 ├── skills/          # Skill definitions (one .md per skill)
 │   └── ii/
 │       └── SKILL.md
-├── LICENSE          # MIT
+├── LICENSE
 └── README.md
 ```
 
