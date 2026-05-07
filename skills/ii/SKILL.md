@@ -1,6 +1,6 @@
 ---
 name: init-project
-description: 初始化新项目：生成 CLAUDE.md、分析架构并输出文档到 docs/
+description: 初始化项目：生成 CLAUDE.md、分析架构并输出文档到 docs/
 ---
 
 # 新项目初始化流程
@@ -9,7 +9,7 @@ description: 初始化新项目：生成 CLAUDE.md、分析架构并输出文档
 
 ## 第一步：运行标准初始化
 
-运行 `/init`， 生成项目根目录 `CLAUDE.md`， 在其顶部追加以下内容：
+生成项目根目录 `CLAUDE.md`（存在则不创建）， 在其顶部追加以下内容之后，运行 `/init` 命令
 
 ```md
 ## 语言规范
@@ -17,6 +17,7 @@ description: 初始化新项目：生成 CLAUDE.md、分析架构并输出文档
 - 所有对话、文档、代码注释使用简体中文
 - 禁止在解释中夹杂英文，仅保留代码语法英文
 - 技术术语首次出现需提供中文释义
+
 ```
 
 ## 第二步：分析项目架构，输出 docs/ARCHITECTURE.md
